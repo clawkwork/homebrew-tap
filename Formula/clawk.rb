@@ -6,7 +6,7 @@ class Clawk < Formula
 
   # Apple Virtualization.framework: Apple silicon, macOS 14+ only.
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   url "https://github.com/clawkwork/clawk/releases/download/v0.1.0/clawk-v0.1.0-darwin-arm64.tar.gz"
   sha256 "d0cc1c21d25c6071bfeb56ae26ddf6554287eddb44618e52b75f9f9ca105c85b"
