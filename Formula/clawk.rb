@@ -1,15 +1,15 @@
 class Clawk < Formula
   desc "Disposable Linux VMs for coding agents"
   homepage "https://github.com/clawkwork/clawk"
-  version "0.2.0" # auto-updated by clawk's release workflow on each tag
+  version "0.3.0" # auto-updated by clawk's release workflow on each tag
   license "Apache-2.0"
 
   # Apple Virtualization.framework: Apple silicon, macOS 14+ only.
   depends_on arch: :arm64
   depends_on macos: :sonoma
 
-  url "https://github.com/clawkwork/clawk/releases/download/v0.2.0/clawk-v0.2.0-darwin-arm64.tar.gz"
-  sha256 "694cdf6672808168ae3129d33b05926376a8bf98a44826126067c92e7ded5953"
+  url "https://github.com/clawkwork/clawk/releases/download/v0.3.0/clawk-v0.3.0-darwin-arm64.tar.gz"
+  sha256 "387b3414ed4a00e6c3e1e5ec4333b8a7c9c5ef29a87f26fbde31965d5a028e51"
 
   def install
     bin.install "clawk"
